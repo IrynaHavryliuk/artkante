@@ -47,6 +47,9 @@ button {
   text-transform: uppercase;
   color: #a40606;
 }
+
+/* header */
+
 .header {
   display: flex;
 }
@@ -87,6 +90,9 @@ button {
 .point-menu-2 li {
   margin-right: 60px;
 }
+
+/* hero */
+
 .hero {
   margin-left: 412px;
   background-image: url(./images/2020.11\ 1.jpg);
@@ -115,6 +121,108 @@ button {
   color: #ffffff;
 }
 
+/* progects */
+
+.progects {
+  display: flex;
+  margin-left: 327px;
+  margin-top: 91px;
+  margin-bottom: 106px;
+}
+.progects li {
+  margin-right: 28px;
+}
+
+/* about */
+
+.about {
+  width: 1234px;
+  height: 573px;
+  box-shadow: 0.973186px 0.973186px 1.94637px rgba(43, 43, 42, 0.3),
+    -0.973186px -0.973186px 1.94637px rgba(11, 11, 10, 0.5),
+    inset -8.75868px 8.75868px 17.5174px rgba(11, 11, 10, 0.2),
+    inset 8.75868px -8.75868px 17.5174px rgba(11, 11, 10, 0.2),
+    inset -8.75868px -8.75868px 17.5174px rgba(43, 43, 42, 0.9),
+    inset 8.75868px 8.75868px 22.3833px rgba(11, 11, 10, 0.9);
+  margin-left: 343px;
+}
+.about__block {
+  display: flex;
+}
+.about img {
+  margin-top: 27px;
+  margin-left: 33px;
+}
+.about__founder {
+  margin-top: 55px;
+  margin-left: 103px;
+  margin-right: 88px;
+  justify-content: center;
+  text-align: center;
+}
+.founder__title {
+  margin-bottom: 37px;
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25.8937px;
+  line-height: 101.76%;
+  text-align: center;
+  letter-spacing: 0.175em;
+
+  color: #ffffff;
+}
+.founder__name {
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 39.5834px;
+  line-height: 34px;
+  letter-spacing: 0.275em;
+
+  color: #c06402;
+  margin-bottom: 37px;
+}
+.founder__text,
+.founder__text1 {
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 25px;
+  text-align: justify;
+
+  color: #ffffff;
+}
+.founder__text {
+  margin-bottom: 30px;
+}
+.founder__text1 {
+  margin-bottom: 70px;
+}
+
+/* desingery */
+
+.desingery__title {
+  content: no-repeat;
+  display: block;
+  background-image: url(./images/image-2.jpg);
+  width: 1097.71px;
+  height: 531px;
+  margin-left: 255px;
+  margin-top: 128px;
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 45px;
+  line-height: 44px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+  padding-top: 206px;
+  padding-left: 83px;
+}
 #foto1,
 #foto2,
 #foto3 {
@@ -135,8 +243,4 @@ button {
   top: -980px;
   left: 140px;
   color: #1b1b1a;
-}
-.progects {
-  display: flex;
-  margin-left: 327px;
 }
